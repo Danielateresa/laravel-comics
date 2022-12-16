@@ -85,7 +85,7 @@ main {
 
 
         span {
-            background-color: $blue;
+            background-color: #0282F9;
             padding: 0.5rem 1rem;
             font-size: 20px;
             font-weight: bold;
@@ -101,13 +101,34 @@ main {
     .load_more {
         text-transform: uppercase;
         font-weight: bold;
-        color: $light;
-        background-color: $blue;
+        color: white;
+        background-color: #0282F9;
         padding: 0.5rem 3rem;
         border-radius: 0;
     }
 
     .load_more:hover {
-        background-color: $blue;
+        background-color: #0282F9;
+    }
+}
+
+.blue_bar {
+    background-color: #0282F9;
+    padding: 2rem 0;
+
+    .container {
+        max-width: 1000px;
+
+        .col {
+            img {
+                max-height: 50px;
+                margin-right: 1rem;
+
+                span {
+                    font-size: 12px;
+
+                }
+            }
+        }
     }
 }
