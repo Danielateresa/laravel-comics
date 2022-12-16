@@ -30,6 +30,10 @@
         </nav>
     </div>
 
+    <div class="comics_jumbotron">
+
+    </div>
+
 
 
 </header>
