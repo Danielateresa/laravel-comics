@@ -12,6 +12,19 @@
         <p>{{$text}}</p>
     </div>
 
+    <div class="row px-4 d-flex">
+
+        @foreach($characters as $character)
+        <div class="col-2 mt-5">
+            <div class="comic_card">
+                <img src="{{$character['thumb']}}" alt="{{$character['name']}}">
+                <span>{{$character['name']}}</span>
+            </div>
+        </div>
+        <!-- singola card -->
+        @endforeach
+    </div>
+
     <div class="button_box text-center mt-5">
         <button class="btn load_more">
             load more

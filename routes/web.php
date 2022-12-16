@@ -21,7 +21,9 @@ Route::get('/', function () {
 })->name('comics');
 
 Route::get('/characters', function () {
+    $characters = config('db.characters');
+
     $pageUnderConstruction = "Page under construction";
     $text = "Don't miss the biggest news reserved for you, soon on our website!";
-    return view('characters', compact('pageUnderConstruction', 'text'));
+    return view('characters', compact('pageUnderConstruction', 'text', 'characters'));
 })->name('characters');

@@ -213,5 +213,29 @@ return [
             "Joëlle Jones"
         ],
     ],
-]
+],
+
+
+'characters'=>[
+    [
+        "name" => "Superman",
+        "thumb" => "https://media-assets.wired.it/photos/615da242f565108fc1a5ee13/master/pass/wired_placeholder_dummy.png",
+
+    ],
+    [
+        "name" => "Spider Man",
+        "thumb" => "https://images.everyeye.it/img-notizie/spider-man-4-peter-parker-tornera-avenger-v4-571993-1280x960.webp",
+     ],
+     [
+        "name" => "Captain Amrica",
+        "thumb" => "https://fumettologica.it/wp-content/uploads/2021/04/chris-evans-captain-america.jpeg",
+
+     ],
+    [
+        "name" => "Batman",
+        "thumb" => "https://upload.wikimedia.org/wikipedia/it/c/c4/The_Batman_%28film%29.png",
+
+    ],
+
+    ],
 ];
