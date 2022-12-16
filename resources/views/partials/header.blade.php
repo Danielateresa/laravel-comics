@@ -7,25 +7,26 @@
             </div>
         </div>
     </div>
-    <div class="container d-flex align-items-center justify-content-between center text-uppercase">
+    <div class="container d-flex align-items-center justify-content-between center">
         <div class="logo">
             <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="dc logo">
         </div>
-        <nav class="navbar py-0">
-            <div class="link_box mx-5">
-                <a href="#">characters</a>
-                <a href="#">comics</a>
-                <a href="#">movies</a>
-                <a href="#">tv</a>
-                <a href="#">games</a>
-                <a href="#">collectibles</a>
-                <a href="#">videos</a>
-                <a href="#">fans</a>
-                <a href="#">news</a>
-                <a href="#">shop</a>
+        <nav class="navbar py-0 fw-bold">
+            <div class="link_box mx-5 text-uppercase">
+                <a href="#" class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">characters</a>
+                <a href="{{route('comics')}}"
+                    class="{{Route::CurrentRouteName() === 'comics' ? 'active' : ''}}">comics</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'movies' ? 'active' : ''}}">movies</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'tv' ? 'active' : ''}}">tv</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'games' ? 'active' : ''}}">games</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'collectibles' ? 'active' : ''}}">collectibles</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'videos' ? 'active' : ''}}">videos</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'fans' ? 'active' : ''}}">fans</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'news' ? 'active' : ''}}">news</a>
+                <a href="#" class="{{Route::CurrentRouteName() === 'shop' ? 'active' : ''}}">shop</a>
             </div>
             <div class="search">
-                <a href="#">Search</a>
+                <a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
         </nav>
     </div>

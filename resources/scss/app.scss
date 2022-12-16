@@ -1,5 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 
+
 header {
     .header_top {
         background-color: #0282F9;
@@ -24,18 +25,16 @@ header {
 
         a {
             text-decoration: none;
-            color: black;
             font-weight: bold;
             margin-left: 1rem;
+
+
+            &:hover {
+                border-bottom: 2px solid #0282F9;
+                padding-bottom: 2rem;
+            }
         }
 
-        /*  &:hover {
-            border-bottom: 2px solid #0282F9;
-        } */
-
-        /* .active {
-            border-bottom: 2px solid #0282F9;
-        } */
     }
 
     .search {
@@ -54,6 +53,12 @@ header {
         background-repeat: no-repeat;
         height: 400px;
         width: 100%;
+    }
+
+    .active {
+        color: #0282F9;
+        border-bottom: 2px solid #0282F9;
+        padding-bottom: 2rem;
     }
 }
 
