@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container cards px-4 pb-4">
+<div class="container characters cards px-4 pb-4">
     <div class="tag">
         <span>characters</span>
     </div>
@@ -15,7 +15,7 @@
     <div class="row px-4 d-flex">
 
         @foreach($characters as $character)
-        <div class="col-2 mt-5">
+        <div class="col-3 mt-5">
             <div class="comic_card">
                 <img src="{{$character['thumb']}}" alt="{{$character['name']}}">
                 <span>{{$character['name']}}</span>

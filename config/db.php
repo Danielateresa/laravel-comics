@@ -225,17 +225,36 @@ return [
     [
         "name" => "Spider Man",
         "thumb" => "https://images.everyeye.it/img-notizie/spider-man-4-peter-parker-tornera-avenger-v4-571993-1280x960.webp",
-     ],
-     [
+    ],
+    [
         "name" => "Captain Amrica",
         "thumb" => "https://fumettologica.it/wp-content/uploads/2021/04/chris-evans-captain-america.jpeg",
 
-     ],
+    ],
     [
         "name" => "Batman",
         "thumb" => "https://upload.wikimedia.org/wikipedia/it/c/c4/The_Batman_%28film%29.png",
 
     ],
+    [
+        "name" => "Ironman",
+        "thumb" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHxnyfjmUBDka2RpEN7Z_KxPjfeK6EP8Mo_BYcb-yeHjWyap8zYjBDXIqizGYcqS5JHo&usqp=CAU",
 
     ],
+    [
+        "name" => "Wonder woman",
+        "thumb" => "https://www.sorrisi.com/wp-content/uploads/2017/03/wonder-woman-gal-gadot-film.jpg",
+
+    ],
+    [
+        "name" => "Acquaman",
+        "thumb" => "https://api.superguidatv.it/v1/movies/18951/backdrops/1?width=720",
+
+    ],
+    [
+        "name" => "Catwoman",
+        "thumb" => "https://media.gqitalia.it/photos/5da58405c8c00c000807c97f/1:1/w_999,h_999,c_limit/Michelle%20Pfeiffer-Batman%20Returns%20(1992).jpg",
+
+    ],
+]
 ];
