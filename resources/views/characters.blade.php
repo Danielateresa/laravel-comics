@@ -6,9 +6,10 @@
     <div class="tag">
         <span>characters</span>
     </div>
-    <div class="container pt-5">
+    <div class="container pt-5 text-white">
 
-        <h3>Page under construction</h3>
+        <h3>{{$pageUnderConstruction}}</h3>
+        <p>{{$text}}</p>
     </div>
 
     <div class="button_box text-center mt-5">
