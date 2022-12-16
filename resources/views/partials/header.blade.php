@@ -13,7 +13,8 @@
         </div>
         <nav class="navbar py-0 fw-bold">
             <div class="link_box mx-5 text-uppercase">
-                <a href="#" class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">characters</a>
+                <a href="{{route('characters')}}"
+                    class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">characters</a>
                 <a href="{{route('comics')}}"
                     class="{{Route::CurrentRouteName() === 'comics' ? 'active' : ''}}">comics</a>
                 <a href="#" class="{{Route::CurrentRouteName() === 'movies' ? 'active' : ''}}">movies</a>
